@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate": "drizzle-kit generate:mysql --schema=./schema.ts"
+    "push": "drizzle-kit push:mysql"
   },
   "keywords": [],
   "author": "",
