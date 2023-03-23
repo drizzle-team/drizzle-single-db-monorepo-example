@@ -1,0 +1,24 @@
+{
+  "name": "planetscale-mysql2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "drizzle-kit generate:mysql --schema=./schema.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@planetscale/database": "^1.6.0",
+    "drizzle-orm": "0.22.1-1f5d98c",
+    "undici": "^5.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "dotenv": "^16.0.3",
+    "drizzle-kit": "0.17.0-edc772a",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.2"
+  }
+}

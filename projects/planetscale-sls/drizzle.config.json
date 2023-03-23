@@ -1,0 +1,7 @@
+{
+  "schema": "./schema.ts",
+  "connectionString": "mysql://5m84e3loto6zwomhwlf9:pscale_pw_PuY3cYEjwM60npbX0TJ4TbOp4WLYe33Q3yJFyIZZIoW@us-east.connect.psdb.cloud/drizzle-orm-proj?ssl={\"rejectUnauthorized\":true}",
+  "tablesFilter": [
+    "alex_*"
+  ]
+}
