@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "push": "drizzle-kit push:mysql"
+    "push": "drizzle-kit push:mysql --config=drizzle.config.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "drizzle-orm": "0.22.0-cbee773",
     "mysql2": "^2.3.3"
   },
   "devDependencies": {
     "@types/node": "^18.15.5",
     "dotenv": "^16.0.3",
-    "drizzle-kit": "^0.17.0",
+    "drizzle-kit": "0.17.1-8caa9ce",
+    "drizzle-orm": "0.23.2",
+    "madge": "^6.0.0",
     "tsx": "^3.12.6",
     "typescript": "^5.0.2"
   }

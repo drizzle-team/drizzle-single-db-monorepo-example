@@ -1,4 +1,0 @@
-{
-  "schema": "./schema.ts",
-  "connectionString": "mysql://5m84e3loto6z...:pscale_pw_PuY3cYE...@us-east.connect.psdb.cloud/drizzle-orm-proj?ssl={\"rejectUnauthorized\":true}"
-}
