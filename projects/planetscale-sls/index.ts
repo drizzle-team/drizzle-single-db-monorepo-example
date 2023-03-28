@@ -32,7 +32,7 @@ const main = async () => {
 
   const result = await db
     .insert(people)
-    .values({ id: 10, name: "John Wick", age: 58, occupation: "housekeeper" });
+    .values({ name: "John Wick", age: 58, occupation: "housekeeper" });
   console.log(result);
 };
 

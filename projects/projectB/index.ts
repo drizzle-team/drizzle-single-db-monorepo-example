@@ -7,14 +7,14 @@ import { fetch } from "undici";
 
 config();
 
-const { DATABASE_URL: uri } = process.env;
+const { DATABASE_URL: url } = process.env;
 
 const main = async () => {
   const { connect } = await planetscale;
 
   const connection = connect({
     fetch,
-    uri,
+    url,
   });
 
   const db = drizzle(connection);
@@ -22,8 +22,8 @@ const main = async () => {
   await migrate(db, { migrationsFolder: "./drizzle" });
 
   // await db
-  // 	.insert(people)
-  // 	// .values({ name: 'John Wick', age: 58, occupation: 'housekeeper' });
+  //   .insert(people)
+  //   .values({ name: "John Wick", age: 58, occupation: "housekeeper" });
 };
 
 main();
