@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "push": "drizzle-kit push:mysql --config=drizzle.config.ts"
+    "push": "drizzle-kit push:mysql"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/node": "^18.15.5",
     "dotenv": "^16.0.3",
-    "drizzle-kit": "0.17.1-6474464",
+    "drizzle-kit": "0.17.1-5df459e",
     "typescript": "^5.0.2"
   }
 }
